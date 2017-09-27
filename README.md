@@ -53,7 +53,8 @@ fastcgi_temp_file_write_size 1024k;
 
 		ab -n 20000 -c 5000
 
-我们统一的请求次数`10000`,每次并发`3000`个进行测试.		
+我们统一的请求次数`10000`,每次并发`3000`个进行测试.	
+	
 * Concurrency Level: 并发数
 * Time taken for tests: 压力测试消耗的总时间
 * Complete requests: 压力测试的总次数
