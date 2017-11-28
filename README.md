@@ -191,14 +191,14 @@ log_format  main   '[$http_x_request_id]:$remote_addr|$remote_user|$time_local|$
 curl -X GET -H "X-Request-ID:bbb" 127.0.0.1/users
 ```
 
-## 还未做完
-
 ### 时区修改
 
 ```
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ```
+
+## 还未做完
 
 ### fastCGI参数优化
 
