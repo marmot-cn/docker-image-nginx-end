@@ -1,6 +1,6 @@
-# version: v1.1.20160527
+# version: v1.1.20190725
 
-FROM nginx:1.13
+FROM nginx:1.17.2
 MAINTAINER chloroplast "41893204@qq.com"
 
 ADD ./conf/nginx.conf   /etc/nginx/nginx.conf
